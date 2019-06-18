@@ -1,7 +1,7 @@
 from pyspark import SparkConf, SparkContext
 from math import sqrt
 
-conf = SparkConf().setMaster().setAppName("OddNumberSums")
+conf = SparkConf().setAppName("OddNumberSums")
 sc = SparkContext(conf=conf)
 
 n = 50
